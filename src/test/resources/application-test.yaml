@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:cards_test_db;DB_CLOSE_DELAY=-1;MODE=MySQL
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+eureka:
+  client:
+    enabled: false
+
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+
+account-service:
+  account-service-url: http://localhost:8080
