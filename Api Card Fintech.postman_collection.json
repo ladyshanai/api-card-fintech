@@ -148,7 +148,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"itemName\": \"calza\",\r\n  \"price\": 10.21,\r\n  \"idCart\": 2\r\n}\r\n",
+          "raw": "",
           "options": {
             "raw": {
               "language": "json"
